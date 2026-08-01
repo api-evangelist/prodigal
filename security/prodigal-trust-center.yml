@@ -1,0 +1,17 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://trust.prodigaltech.com/
+url: https://trust.prodigaltech.com/
+certifications:
+- SOC 2
+- PCI DSS
+- HIPAA
+evidence:
+- source: https://trust.prodigaltech.com/
+  keywords:
+  - soc 2
+  - soc2
+  - pci dss
+  - hipaa
+  - trust center

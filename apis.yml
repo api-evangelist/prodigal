@@ -1,8 +1,20 @@
 aid: prodigal
 name: Prodigal
-description: 'Prodigal is a company surfaced as a portfolio company of accel, menlo-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Prodigal is an AI company building purpose-built agents and intelligence for
+  the loan-servicing and debt-collections industry. Its products include
+  proAgent (end-to-end collections automation across voice and digital), PIE
+  (an intelligence layer trained on more than half a billion consumer-finance
+  interactions), proCollect (omnichannel digital orchestration), proScore
+  (propensity-to-pay scoring from 500+ consumer attributes), proPay (an
+  AI-native self-serve payment portal), proNotes (automated call notes),
+  proInsight (QA automation, scorecards, and revenue analytics), and proAssist
+  (real-time agent assistance). Prodigal serves auto finance, collections,
+  healthcare revenue-cycle management, and lending, integrating with dialers
+  and contact-center platforms such as Five9, Genesys, NICE, TCN, and
+  DialConnect. It is backed by Accel and Menlo Ventures. Prodigal exposes no
+  public developer API; this profile captures its identity, security posture,
+  and compliance program.
 url: https://raw.githubusercontent.com/api-evangelist/prodigal/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +23,30 @@ x-backed-by:
 - menlo-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://cdn.prod.website-files.com/5fcb3bbf6fdac54bdd345a59/66f54623a3eac7d7e5edab8e_home.png
 tags:
 - Company
 - Enterprise
+- Artificial Intelligence
+- Debt Collections
+- Loan Servicing
+- Financial Services
+- Contact Center
+- Healthcare RCM
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +56,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.prodigaltech.com/
+- type: Blog
+  url: https://www.prodigaltech.com/resources
+- type: Support
+  url: mailto:support@prodigaltech.com
+- type: TermsOfService
+  url: https://www.prodigaltech.com/term-of-use
+- type: PrivacyPolicy
+  url: https://www.prodigaltech.com/privacy-policy
+- type: TrustCenter
+  url: security/prodigal-trust-center.yml
+- type: Compliance
+  url: https://trust.prodigaltech.com/
+- type: DomainSecurity
+  url: security/prodigal-domain-security.yml
+- type: WellKnown
+  url: well-known/prodigal-well-known.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
