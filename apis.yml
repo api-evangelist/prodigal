@@ -55,7 +55,7 @@ tags:
 - Artificial Intelligence
 - Debt Collections
 - Loan Servicing
-- Financial-Services
+- Financial Services
 - Contact Center
 - Healthcare RCM
 tags_raw:
@@ -67,6 +67,7 @@ tags_raw:
 - Financial Services
 - Contact Center
 - Healthcare RCM
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
