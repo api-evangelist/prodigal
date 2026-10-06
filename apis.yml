@@ -47,7 +47,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 image: https://cdn.prod.website-files.com/5fcb3bbf6fdac54bdd345a59/66f54623a3eac7d7e5edab8e_home.png
 tags:
 - Company
@@ -75,6 +75,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://www.prodigaltech.com/blog/rss.xml
+  type: BlogRSS
 - type: Website
   url: https://www.prodigaltech.com/
 - type: Blog
